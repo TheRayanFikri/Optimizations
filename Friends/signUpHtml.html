@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="Images/Logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signUpCss.css">
+    <title>SignUp | Friends</title>
+</head>
+
+<body>
+    <div class="gradientCircle"></div>
+    <div class="gradientCircleJouj"></div>
+    <form class="signUpPanel">
+        <div class="head">
+            <img src="Images/Logo.png" class="createAccount" alt="">
+            <h1 class="signUpLabel">SignUp</h1>
+            <p class="signUpParagraphs">Enter your informations below</p>
+        </div>
+        <label for="Username" class="name">Username</label>
+        <input type="text" name="" id="usernameInput" required placeholder="Enter username">
+        <small id="thirdErrorMessage" style="display:none; color:red;">The username shouldn't content special caracters</small>
+        <label for="Email" class="name">Email</label>
+        <input type="email" name="" id="emailInput" required placeholder="Enter email">
+        <label for="password" class="name">Password</label>
+        <input type="password" name="" id="passwordInput" required placeholder="Enter password">
+        <small id="secondErrorMessage" style="display: none; color: red;">The length of the password should be more than 6</small>
+        <label for="Password" class="name">Confirm Password</label>
+        <input type="password" name="" id="confirmPasswordInput" required placeholder="Confirm the password">
+        <small id="errorMessage" style="display: none; color: red;">This should be the same as the password</small>
+        <a href="homeScreen.html"><button type="submit" class="submitButton" id="submitButton" disabled>Confirm</button></a>
+        <div class="signUpDiv">
+            <span class="signUpThing">If you already have an account? </span>
+            <a href="logInHtml.html" class="signUpThing" style="text-decoration: none;"><span class="signUpSignUp">LogIn</span></a></div>
+    </form>
+    <script src="signUpScript.js"></script>
+
+</body>
+
+</html>

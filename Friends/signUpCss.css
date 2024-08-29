@@ -1,0 +1,214 @@
+body {
+  animation: 1.5s forwards;
+  animation-fill-mode: backwards;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: #ececed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+  transition: 0.7s ease-in-out;
+  z-index: 1;
+  animation-name: gradient;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  animation:ease-in-out;
+  animation-duration:3s;
+  transition
+}
+.createAccount {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.signUpPanel {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  background: #ffffff;
+  max-width: 370xpx;
+  max-height: 560px;
+  position: relative;
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+}
+.signUpPanel input {
+  margin-top: 4px;
+  padding: 5px 10px;
+  width: 300px;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  outline: solid;
+  outline-color: rgb(235, 230, 230);
+  outline-width: 1px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.281);
+}
+.signUpPanel label {
+  font-size: small;
+  align-items: start;
+  margin-top: 10px;
+  display: flex;
+  justify-items: start;
+}
+.submitButton {
+  align-items: center;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  justify-items: center;
+  justify-self: center;
+  align-self: center;
+  border: none;
+  background-color: #357954;
+  margin-top: 20px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    background-color: #55a367;
+    color: white;
+    transition: all 0.5s ease-in-out;
+  }
+}
+.signUpLabel {
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+.signUpParagraphs {
+  font-size: small;
+  margin-bottom: 5px;
+  color: grey;
+}
+.signUpThing {
+  font-size: small;
+  color: grey;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.signUpSignUp {
+  margin-top: 4px;
+  text-decoration: none;
+  color: #357954;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.head {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.head img {
+  margin-bottom: -30px;
+}
+.showMessage {
+  color: red;
+  font-size: small;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.erroredInput {
+  box-shadow: 0 0 4px red !important;
+  outline-color: red;
+  outline: solid;
+}
+.signUpDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.signUpDiv span.signUpSignUp {
+  margin-left: -40px;
+}
+.disabledButtonStyle {
+  align-items: center;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  justify-items: center;
+  justify-self: center;
+  align-self: center;
+  border: none;
+  background-color: #357954;
+  margin-top: 20px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    background-color: #640e0e;
+  }
+}
+.enabledButtonStyle {
+  align-items: center;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  justify-items: center;
+  justify-self: center;
+  align-self: center;
+  border: none;
+  background-color: #357954;
+  margin-top: 20px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  &:hover{
+    background-color: #55a367;
+    color: white;
+    transition: all 0.5s ease-in-out;
+  }
+}
+.gradientCircle {
+  background-image: linear-gradient(-135deg, #357954, transparent);
+  width: 50vw;
+  height: 50vw;
+  display: flex;
+  border-radius: 100%;
+  position:fixed; 
+  top: -25vw;
+  right: -25vw;
+  overflow: hidden;
+}
+.gradientCircleJouj{
+  background-image: linear-gradient(45deg, #357954, transparent);
+  width: 50vw;
+  height: 50vw;
+  display: flex;
+  border-radius: 100%;
+  position: fixed;
+  bottom: -25vw;
+  left: -25vw;
+  animation:alternate 2s infinite linear;
+  overflow: hidden;
+}
+}

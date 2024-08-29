@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings | Friends</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="settingsTab.css">
+</head>
+
+<body>
+    <div class="sideBar">
+        <img src="Images/logoUser.png" alt="" class="logoUser" />
+        <h2>UserName</h2>
+        <h5 class="smallUsername">@UserName</h5>
+        <div class="tabs">
+            <a href="homeScreen.html" id="homeTab" class="otherTabs"><span class="material-symbols-outlined"> home </span> Home</a>
+
+            <a href="" id="messagesTab" class="otherTabs">
+                <span class="material-symbols-outlined"> mail </span>Messages
+            </a>
+            <a href="friendsTab.html" id="friendsTab" class="otherTabs"><span class="material-symbols-outlined"> group </span>Friends</a>
+            <a href="" id="notificationsTab" class="otherTabs"><span class="material-symbols-outlined">notifications</span>Notifications</a>
+            <a href="settingsTab.html" id="settingsTab" class="otherTabs active"><span class="material-symbols-outlined">settings</span>Settings</a>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="topBarMain">
+            <div class="settingsTitle">
+                <span class="material-symbols-outlined">
+                    settings</span>
+                <h1>Settings</h1>
+            </div>
+            <div class="settingsCategories">
+                <div class="profile">
+                    <a href="profile.html" class="tabSettings">
+                        <span class="material-symbols-outlined">person</span>
+                        <h3>Profile</h3>
+                    </a>
+                </div>
+                <div class="confidential">
+                    <a href="confidentialSettings.html" class="tabSettings">
+                        <span class="material-symbols-outlined">lock</span>
+                        <h3>Confidential</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="settingsTab.js"></script>
+</body>
+
+</html>
